@@ -9,7 +9,6 @@ app.engine('handlebars', handlebars.engine({ defaultLayout: 'main' }));
 app.set('view engine', 'handlebars');
 
 // Config
-// Body Parser - Não Funciona mais
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json())
 
